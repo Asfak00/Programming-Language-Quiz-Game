@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- navigation start -->
+
+    <nav>
+      <h1>Welcome To Quiz App</h1>
+    </nav>
+
+    <!-- navigation end -->
+
+    <!-- Quiz application start -->
+    <div class="container">
+      <div class="select-lan">
+        <label for="names"> Choice Your Language <b>:</b> </label>
+        <button id="HTML"><abbr title="HTML5">HTML5</abbr></button>
+        <button id="CSS"><abbr title="CSS">CSS</abbr></button>
+        <button id="JAVASCRIPT"><abbr title="JAVASCRIPT">JS</abbr></button>
+      </div>
+
+      <div class="time-zone">
+        <div class="time">
+          <span id="minute">0</span>
+          <span>:</span>
+          <span id="second">0</span>
+        </div>
+        <div class="resultTime">
+          <span id="rminute">0</span>
+          <span>:</span>
+          <span id="rsecond">0</span>
+        </div>
+      </div>
+      <div class="main-div">
+        <h2 id="question">Q1: What You Want Here?</h2>
+
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="ans1" class="answer" />
+            <label for="ans1" id="option1">Hyper Text Markup Language</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="ans2" class="answer" />
+            <label for="ans2" id="option2">Hyper Text Markup Language</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="ans3" class="answer" />
+            <label for="ans3" id="option3">Hyper Text Markup Language</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="ans4" class="answer" />
+            <label for="ans4" id="option4">Hyper Text Markup Language</label>
+          </li>
+        </ul>
+
+        <button id="submit-button">Submit</button>
+
+        <div class="show" id="hiddenDiv"></div>
+      </div>
+    </div>
+    <!-- Quiz application end -->
+
+    <script src="./js/app.js"></script>
+    <script src="./js/html.js"></script>
+    <script src="./js/css.js"></script>
+    <script src="./js/js.js"></script>
+  </body>
+</html>
